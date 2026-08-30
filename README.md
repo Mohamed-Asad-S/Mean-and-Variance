@@ -52,7 +52,8 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ```
 import numpy as np
 
-print("Mohamed Asas\n212225040238")
+print("Mohamed Asad S\n212225040238")
+# Read input values
 L = [int(i) for i in input().split()]
 N = len(L)
 M = max(L)
@@ -83,9 +84,13 @@ sd = np.sqrt(var)
 print(f"The Mean arrival rate is {mean:.3f} ")
 print(f"The Variance of arrival from feeder is {var:.3f}")
 print(f"The Standard deviation of arrival from feeder is {sd:.3f}")
+
+
+
+
 ```
 # Output : 
-<img width="752" height="160" alt="image" src="https://github.com/user-attachments/assets/7854406a-1024-4163-bb4c-ad18b4f9bc09" />
+<img width="612" height="145" alt="image" src="https://github.com/user-attachments/assets/9604c518-8724-47bf-8cff-730836eed957" />
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
